@@ -1,0 +1,33 @@
+{
+    "name": "ionscript/ions-db",
+    "description": "provides a database interface",
+    "license": "GPL-3.0+",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Serge Shportko",
+            "email": "ionscript.inc@gmail.com"
+        }
+    ],
+    "keywords": [
+        "ions",
+        "db"
+    ],
+    "homepage": "https://github.com/ionscript/ions-db",
+    "autoload": {
+        "psr-4": {
+            "Ions\\Db\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "ionscript/ions-std": "master"
+    },
+    "require-dev": {},
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/ionscript/ions-std.git"
+        }
+    ]
+}
